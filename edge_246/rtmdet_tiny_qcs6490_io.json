@@ -1,0 +1,82 @@
+{
+  "input": {
+    "scale": 0.017026159912347794,
+    "zero_point": 100,
+    "dtype": "uint8",
+    "name": "image",
+    "shape": [
+      1,
+      3,
+      640,
+      640
+    ]
+  },
+  "outputs": {
+    "output_0": {
+      "scale": 0.0949813574552536,
+      "zero_point": 248,
+      "dtype": "uint8",
+      "shape": [
+        1,
+        80,
+        80,
+        80
+      ]
+    },
+    "output_1": {
+      "scale": 0.8243225812911987,
+      "zero_point": 12,
+      "dtype": "uint8",
+      "shape": [
+        1,
+        4,
+        80,
+        80
+      ]
+    },
+    "output_2": {
+      "scale": 0.18070144951343536,
+      "zero_point": 249,
+      "dtype": "uint8",
+      "shape": [
+        1,
+        80,
+        40,
+        40
+      ]
+    },
+    "output_3": {
+      "scale": 1.081433653831482,
+      "zero_point": 0,
+      "dtype": "uint8",
+      "shape": [
+        1,
+        4,
+        40,
+        40
+      ]
+    },
+    "output_4": {
+      "scale": 0.11589179188013077,
+      "zero_point": 242,
+      "dtype": "uint8",
+      "shape": [
+        1,
+        80,
+        20,
+        20
+      ]
+    },
+    "output_5": {
+      "scale": 1.3691478967666626,
+      "zero_point": 0,
+      "dtype": "uint8",
+      "shape": [
+        1,
+        4,
+        20,
+        20
+      ]
+    }
+  }
+}
